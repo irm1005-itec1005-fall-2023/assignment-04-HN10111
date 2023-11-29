@@ -25,24 +25,46 @@
 </head>
 <body>
 
-  <!--
+<div class="Write"></div>
+<div class="Up"></div>
 
-    Assignment 04 - Finishing a Todo List App
+<section>
+  <h1>Boss Girl Monthly To-do List</h1>
+  </div>
+  <h2>Today</h2>
+  <form id="todayform">
+    <table>
+      <tr>
+        <td><input type="text" id="newItem" placeholder="Boss Energy."></td>
+        <td><button class="addbtn" type="submit">Add</button></td>
+      </tr>
+    </table>
+  </form>
+  <ul id="todoList"></ul>
 
-    Instructions:
+  <h2>Tomorrow</h2>
+  <form id="tomorrowform">
+    <table>
+      <tr>
+        <td> <input type="text" id="newItemTomorrow" placeholder="Self Made."></td>
+        <td><button class="addbtntomorrow" type="submit">Add</button></td>
+      </tr>
+    </table>
+  </form>
+  <ul id="TomorrowList"></ul>
 
-    Important checklist:
+  <h2>Future</h2>
+  <form id="futureform">
+    <table>
+      <tr>
+        <td><input type="text" id="newItemFuture" placeholder="Self Paid."></td>
+        <td><button class="addbtnFuture" type="submit">Add</button></button></td>
+      </tr>
+    </table>
+  </form>
+<ul id="todoListFuture"></ul>
 
-    - Are users able to create and delete to do list items?
-    - Have you set a favicon? (included - but it's a rocket)
-    - Has a team member conducted a code review and left a GitHub Issue in your repo?
-    - Have you conducted a code review and left a GitHub Issue on your team member's repo?
-
-  -->
-
-  <main>
-    <div id="app"></div>
-  </main>
+</section>
 
   <!-- Add JavaScript File -->
   <script src="./script.js"></script>
