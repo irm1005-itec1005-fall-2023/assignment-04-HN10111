@@ -54,3 +54,59 @@ main {
   white-space: nowrap;
   border-width: 0;
 }
+
+section {
+  width: 590px;
+  height: 450px;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 4px solid rgb(83, 43, 8); /* Change the color and width as needed */
+  padding: 10px; 
+}
+
+body{
+  background-image: url(./images/B1.jpg);
+}
+
+h1{
+  margin-bottom: 1.5rem;
+  color:rgb(161, 116, 2)
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #e69e39;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  transition: background-color 0.3s ease;
+  padding: 10px;
+}
+
+.delete-button:hover {
+  background-color: rgb(190, 3, 90);
+}
+
+.completed {
+color: #c47703;
+text-decoration: line-through;
+}
+
+
